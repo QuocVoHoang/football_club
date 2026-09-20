@@ -1,6 +1,16 @@
-[submodule "services/club_social"]
-	path = services/club_social
-	url = git@github.com:QuocVoHoang/club_social.git
+[submodule "fe/club_admin"]
+	path = fe/club_admin
+	url = git@github.com:QuocVoHoang/club_admin.git
+[submodule "fe/club_fe"]
+	path = fe/club_fe
+	url = git@github.com:QuocVoHoang/club_fe.git
+[submodule "services/club_auth"]
+	path = services/club_auth
+	url = git@github.com:QuocVoHoang/club_auth.git
 [submodule "services/club_manager"]
 	path = services/club_manager
 	url = git@github.com:QuocVoHoang/club_manager.git
+[submodule "services/club_social"]
+	path = services/club_social
+	url = git@github.com:QuocVoHoang/club_social.git
+
