@@ -8,7 +8,7 @@ services:
       POSTGRES_USER: clubdb
       POSTGRES_PASSWORD: clubdb_password
     ports:
-      - "5435:5432"
+      - "5432:5432"
     volumes:
       - postgres_clubdb_data:/var/lib/postgresql/data
     healthcheck:
