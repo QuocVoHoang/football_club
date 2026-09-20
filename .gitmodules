@@ -1,0 +1,6 @@
+[submodule "services/club_social"]
+	path = services/club_social
+	url = git@github.com:QuocVoHoang/club_social.git
+[submodule "services/club_manager"]
+	path = services/club_manager
+	url = git@github.com:QuocVoHoang/club_manager.git

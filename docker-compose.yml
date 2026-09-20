@@ -1,0 +1,26 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: postgres-clubdb-db
+    restart: always
+    environment:
+      POSTGRES_DB: clubdb
+      POSTGRES_USER: clubdb
+      POSTGRES_PASSWORD: clubdb_password
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres_clubdb_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U clubdb -d clubdb"]
+      timeout: 20s
+      retries: 10
+      interval: 10s
+
+volumes:
+  postgres_clubdb_data:
+
+networks:
+  shared-network:
+    driver: bridge
+    name: shared-infrastructure-network
