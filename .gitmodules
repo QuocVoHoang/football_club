@@ -13,4 +13,3 @@
 [submodule "services/football_social"]
 	path = services/football_social
 	url = git@github.com:QuocVoHoang/football_social.git
-
