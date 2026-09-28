@@ -1,16 +1,16 @@
-[submodule "fe/club_admin"]
-	path = fe/club_admin
-	url = git@github.com:QuocVoHoang/club_admin.git
-[submodule "fe/club_fe"]
-	path = fe/club_fe
-	url = git@github.com:QuocVoHoang/club_fe.git
-[submodule "services/club_auth"]
-	path = services/club_auth
-	url = git@github.com:QuocVoHoang/club_auth.git
+[submodule "fe/football_admin"]
+	path = fe/football_admin
+	url = git@github.com:QuocVoHoang/football_admin.git
+[submodule "fe/football_fe"]
+	path = fe/football_fe
+	url = git@github.com:QuocVoHoang/football_fe.git
+[submodule "services/football_auth"]
+	path = services/football_auth
+	url = git@github.com:QuocVoHoang/football_auth.git
 [submodule "services/club_manager"]
 	path = services/club_manager
 	url = git@github.com:QuocVoHoang/club_manager.git
-[submodule "services/club_social"]
-	path = services/club_social
-	url = git@github.com:QuocVoHoang/club_social.git
+[submodule "services/football_social"]
+	path = services/football_social
+	url = git@github.com:QuocVoHoang/football_social.git
 
